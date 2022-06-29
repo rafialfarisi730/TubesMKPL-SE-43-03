@@ -7,7 +7,7 @@ public class HelloWorld {
       LocalTime currentTime = new LocalTime();
 		  System.out.println("Waktu menunjukan pukul: " + currentTime);
 
-        Greeter greeter = new Greeter();
+        Greeter greeter = new Greeting();
         System.out.println(greeter.sayHello());
     }
 }
