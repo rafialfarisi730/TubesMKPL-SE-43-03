@@ -23,6 +23,7 @@
        </dependencies>
        <!-- end::joda[] -->
 
+    <!--Week 13 addition-->
     <distributionManagement>
         <repository>
         <id>github</id>
@@ -30,6 +31,12 @@
         <url>https://maven.pkg.github.com/flazefy/TubesMKPL-SE-43-03</url>
         </repository>
     </distributionManagement>
+    
+    <!--Week 13 addition-->
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
        
     <build>
         <plugins>
