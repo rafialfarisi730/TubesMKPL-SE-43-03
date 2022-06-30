@@ -1,4 +1,7 @@
-package hello;
+package src.main.java.hello;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class Greeter {
     public String sayHello() {
