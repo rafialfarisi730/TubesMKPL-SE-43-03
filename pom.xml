@@ -14,14 +14,23 @@
            <maven.compiler.target>1.6</maven.compiler.target>
      </properties>
 
-      <dependencies>
+      <!--<dependencies>
            <dependency>
                <groupId>joda-time</groupId>
                <artifactId>joda-time</artifactId>
                <version>2.2</version>
            </dependency>
-       </dependencies>
+       </dependencies>-->
        <!-- end::joda[] -->
+    
+    <!--Week 13 addition-->
+    <dependencies>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.11</version> <!-- Or whatever JUnit you're using. -->
+        </dependency>
+    </dependencies>
 
     <!--Week 13 addition-->
     <distributionManagement>
