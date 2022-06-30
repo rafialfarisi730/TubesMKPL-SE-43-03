@@ -27,4 +27,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=rafialfarisi730 -Dsonar.projectKey=rafialfarisi730_cobaa
+        run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=flazefy -Dsonar.projectKey=FlazeFy_TubesMKPL-SE-43-03
