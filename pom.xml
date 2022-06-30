@@ -22,6 +22,14 @@
            </dependency>
        </dependencies>
        <!-- end::joda[] -->
+
+    <distributionManagement>
+        <repository>
+        <id>github</id>
+        <name>GitHub Packages</name>
+        <url>https://maven.pkg.github.com/flazefy/TubesMKPL-SE-43-03</url>
+        </repository>
+    </distributionManagement>
        
     <build>
         <plugins>
